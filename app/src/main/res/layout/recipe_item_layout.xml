@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/recipeFoodImg"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/recipeFoodPricePerServing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/recipeFoodImg"
+        app:layout_constraintTop_toBottomOf="@id/recipeFoodTitle"
+        tools:text="price per serving"
+        />
+
+    <TextView
+        android:id="@+id/recipeFoodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/recipeFoodImg"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="recipe food title" />
+
+    <TextView
+        android:id="@+id/recipeFoodHealthyScoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="healthy score :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/recipeFoodImg"
+        app:layout_constraintTop_toBottomOf="@id/recipeFoodPricePerServing" />
+
+    <TextView
+        android:id="@+id/recipeFoodHealthyScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="32"
+        android:textColor="#C66F24"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/recipeFoodHealthyScoreTitle"
+        app:layout_constraintStart_toEndOf="@id/recipeFoodHealthyScoreTitle"
+        app:layout_constraintTop_toTopOf="@id/recipeFoodHealthyScoreTitle" />
+
+    <TextView
+        android:id="@+id/recipeServingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="servings :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/recipeFoodImg"
+        app:layout_constraintTop_toBottomOf="@id/recipeFoodHealthyScoreTitle"
+
+        />
+
+    <TextView
+        android:id="@+id/recipeServings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="3"
+        android:textColor="#4610DA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/recipeServingsTitle"
+        app:layout_constraintStart_toEndOf="@id/recipeServingsTitle"
+        app:layout_constraintTop_toTopOf="@id/recipeServingsTitle"
+
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>

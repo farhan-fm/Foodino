@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.meal.view.MealFragment">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mealFragmentMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/primary_theme_color"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/primary_theme_color"
+        app:tint="@color/light_white_theme_color" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mealFragmentMenuItemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_menu_item_info"
+        android:visibility="gone"
+        app:backgroundTint="@color/light_white_theme_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/mealFragmentMore"
+        app:rippleColor="@color/light_white_theme_color"
+        app:tint="@color/primary_theme_color" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mealFragmentMealPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_meal_plan"
+        android:visibility="gone"
+        app:backgroundTint="@color/light_white_theme_color"
+        app:layout_constraintBottom_toTopOf="@id/mealFragmentMenuItemInfo"
+        app:layout_constraintEnd_toStartOf="@id/mealFragmentIngredientCompute"
+        app:rippleColor="@color/light_white_theme_color"
+        app:tint="@color/primary_theme_color" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mealFragmentIngredientCompute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_ingredient_compute"
+        android:visibility="gone"
+        app:backgroundTint="@color/light_white_theme_color"
+        app:layout_constraintBottom_toTopOf="@id/mealFragmentMore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/light_white_theme_color"
+        app:tint="@color/primary_theme_color" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

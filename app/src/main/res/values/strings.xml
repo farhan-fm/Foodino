@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Foodino</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- profile fragment -->
+    <string name="profile_fragment_setting_txt">Setting</string>
+    <string name="profile_fragment_edit_profile">Edit Profile</string>
+    <string name="profile_fragment_login">Login</string>
+
+    <!-- login fragment -->
+    <string name="login_btn_text">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_sign_up_title">New User ? </string>
+    <string name="login_sign_up"> Register</string>
+
+    <!-- signup fragment -->
+    <string name="signup_username">Username</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_re_password">Re-Enter Password</string>
+    <string name="signup_name">Full Name</string>
+    <string name="signup_btn_text">SignUp</string>
+
+    <!-- edit profile fragment -->
+    <string name="edit_profile_page_title">Edit Profile</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_username">Username</string>
+    <string name="edit_profile_change_password_title">set new password ? </string>
+    <string name="edit_profile_change_password">Change</string>
+
+    <!-- generate meal fragment -->
+    <string name="generate_meal_plan_page_title">Generate Meal</string>
+    <string name="ready_in_minutes">Ready In Minutes :</string>
+    <string name="serving_per_person">Serving :</string>
+    <string name="meal_plan_nutrient_calories">Calories :</string>
+    <string name="meal_plan_nutrient_carbohydrates">Carbohydrates :</string>
+    <string name="meal_plan_nutrient_fat">Fat :</string>
+    <string name="meal_plan_nutrient_protein">Protein :</string>
+
+    <!-- menu item fragment -->
+    <string name="menu_item_page_title">Menu Item</string>
+
+
+
+</resources>

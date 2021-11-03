@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent_color">#80000000</color>
+    <color name="button_primary_color">#00ACC1</color>
+    <color name="pages_title_color">#000000</color>
+    
+    
+    <!---->
+    <color name="primary_theme_color">#3cb371</color>
+    <color name="light_white_theme_color">#ffffff</color>
+    <color name="light_gray_theme_color">#f2f3f4</color>
+
+    <!-- profile fragment -->
+    <color name="profile_bottom_sheet_component">#000000</color>
+    <color name="profile_bottom_sheet_component_login">#2D71E3</color>
+    <color name="profile_bg_color">#880E4F</color>
+    <color name="profile_bg_color2">#B71C1C</color>
+    
+    <!--login fragment-->
+    <color name="title_color">#757575</color>
+    <color name="login_signup_color">#2962FF</color>
+    
+    
+    
+    
+</resources>

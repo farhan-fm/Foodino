@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KaridMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--profile fragment -->
+    <style name="ProfileFragment_BottomSheetItem">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/profile_bottom_sheet_component</item>
+    </style>
+
+    <style name="ProfileFragment_BottomSheetItemLogin" parent="ProfileFragment_BottomSheetItem">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/profile_bottom_sheet_component_login</item>
+    </style>
+
+    <!--login fragment-->
+    <style name="Login_SignUpTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+
+    <style name="Login_SignUp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/login_signup_color</item>
+    </style>
+
+    <!--edit profile fragment-->
+    <style name="EditProfile_PageTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pages_title_color</item>
+    </style>
+
+    <!--generate meal fragment-->
+    <style name="MealPlan_Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_white_theme_color</item>
+    </style>
+
+    <style name="MealPlan_Content">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/light_white_theme_color</item>
+    </style>
+
+    <style name="MealPlanNutrients_Content">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_theme_color</item>
+    </style>
+
+</resources>

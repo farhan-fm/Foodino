@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/recipeFoodImage"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="#F4F0D1" />
+
+        <TextView
+            android:id="@+id/recipeFoodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/recipeFoodImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="food title" />
+
+        <TextView
+            android:id="@+id/recipeFoodPricePerServing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/recipeFoodImage"
+            app:layout_constraintTop_toBottomOf="@id/recipeFoodTitle"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:textColor="#9E4F2A"
+            android:textSize="16sp"
+            tools:text="150$"
+            />
+
+        <ListView
+            android:id="@+id/recipeExtendedIngredientDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recipeFoodImage"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/recipeFoodInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/recipeExtendedIngredientDetail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            tools:text="sfdf ff wfg wef weg wg wesg ju rf asf e hrfh sdf ffffffffffffff wfrsf efrwqe"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

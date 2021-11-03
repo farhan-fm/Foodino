@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <ImageButton
+        android:id="@+id/recipeSearchIc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_search"
+        app:layout_constraintBottom_toBottomOf="@id/recipeSearchFiled"
+        app:layout_constraintTop_toTopOf="@id/recipeSearchFiled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/recipeSearchFiled"
+        />
+    <EditText
+        android:id="@+id/recipeSearchFiled"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipeSearchIc"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:hint="search..."
+        android:background="@drawable/search_edit_text"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
