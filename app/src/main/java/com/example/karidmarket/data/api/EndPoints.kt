@@ -5,5 +5,6 @@ class EndPoints {
         const val GetRecipe : String = "recipes/{id}/information"
         const val GetGenerateMealPlane = "mealplanner/generate"
         const val GetMenuItem = "food/menuItems/{id}"
+        const val GetIngredientAmount = "food/ingredients/{id}/information"
     }
 }
