@@ -1,4 +1,4 @@
-package com.example.karidmarket.data.entity.ingredientamount
+package com.example.karidmarket.domain.model.ingredientamount
 
 data class Nutrient(
     val amount: Double,

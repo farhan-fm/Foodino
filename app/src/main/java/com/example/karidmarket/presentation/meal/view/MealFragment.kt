@@ -74,6 +74,13 @@ class MealFragment : Fragment() {
         setUpFloatButton()
         setUpMealGenerate()
         setUpMenuItem()
+        setUpIngredientAmount()
+    }
+
+    private fun setUpIngredientAmount() {
+        mealFragmentIngredientCompute?.setOnClickListener {
+            findNavController().navigate(R.id.action_mealFragment_to_ingredientAmountFragment)
+        }
     }
 
     private fun setUpMenuItem() {

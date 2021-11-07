@@ -1,4 +1,4 @@
-package com.example.karidmarket.data.entity.ingredientamount
+package com.example.karidmarket.domain.model.ingredientamount
 
 data class IngredientAmountResponse(
     val amount: Double,
@@ -8,6 +8,5 @@ data class IngredientAmountResponse(
     val name: String,
     val nutrition: Nutrition,
     val original: String,
-    val originalName: String,
-    val possibleUnits: List<String>
+    val originalName: String
 )

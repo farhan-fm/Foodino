@@ -41,6 +41,7 @@
     <!-- menu item fragment -->
     <string name="menu_item_page_title">Menu Item</string>
 
-
+    <!-- ingredient amount fragment -->
+    <string name="ingredient_amount_page_title">Ingredient Amount</string>
 
 </resources>
